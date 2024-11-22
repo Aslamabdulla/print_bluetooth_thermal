@@ -14,7 +14,10 @@ dependencies:
     sdk: flutter
   web: ^1.0.0
   plugin_platform_interface: ^2.0.2
-  win_ble: ^1.1.1 # Package for Windows Bluetooth plugin
+  win_ble:
+    git:
+      url: https://github.com/Aslamabdulla/win_ble.git
+      ref: fix/disconnection-cleanup # Package for Windows Bluetooth plugin
 
 dev_dependencies:
   flutter_test:
